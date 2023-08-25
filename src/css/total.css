@@ -1,0 +1,50 @@
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 270px;
+  height: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 3px;
+  min-width: 350px;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+.total button {
+  padding: 10px;
+  border-radius: 10px;
+}
+.total > h2 {
+  font-weight: 400;
+}
+
+.total__p {
+  font-size: 20px;
+  font-weight: 450;
+  color: white;
+  background-color: rgb(153, 151, 151);
+}
+
+.total > button:active {
+  background-color: unset;
+  border: 1px solid #ffd814;
+}
+
+.delivary-address {
+  border: none;
+  background: none;
+}
+@media (max-width: 800px) {
+  .total {
+    width: unset;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .total {
+    min-width: unset;
+  }
+}

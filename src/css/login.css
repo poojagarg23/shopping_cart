@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0%;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 570px;
+}
+input {
+  cursor: pointer;
+}
+.form-main {
+  padding: 100px;
+  background-color: rgb(218, 215, 215);
+  border-radius: 48px;
+}
+.form-control {
+  border-radius: 13px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.h1-form {
+  margin-bottom: 50px;
+}
+.div-button {
+  display: flex;
+}
+.link-signup {
+  margin-left: 30px;
+}
+.error {
+  color: red;
+}
+.map-div {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+.iteam-div {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.card-body {
+  padding: 40px;
+}
+.card {
+  margin: 20px;
+}
+.card-text {
+  width: 200px;
+  font-weight: 700;
+}
+.text {
+  font-weight: 700;
+}
+.card:hover {
+  box-shadow: 0px 0px 3px 2px rgb(221, 221, 221);
+  color: black;
+  text-decoration: none;
+}
+.a-link {
+  color: black;
+  text-decoration: auto;
+  text-decoration: none;
+}
+.div-page {
+  text-align: center;
+  color: rgb(23, 67, 161);
+  margin: 30px;
+}
+.h4-page {
+  padding: 30px;
+  color: black;
+}
+.information {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px;
+}
+.para-information {
+  padding: 30px;
+  padding-left: 0;
+}
+.h2-information {
+  text-align: start;
+  color: rgb(23, 67, 161);
+}
+.h5 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.main-div-info {
+  margin: 20px;
+}
+.hover:hover {
+  background-color: aliceblue;
+}
+
+.span-item {
+  display: flex;
+  justify-content: space-between;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+}
+.div-information-left {
+  float: left;
+  width: 50%;
+}
+.div-information-right {
+  float: right;
+  width: 50%;
+}
+.item-name {
+  color: rgb(23, 67, 161);
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  /* width: 199px; */
+  height: 608px;
+}
+.div-body {
+  display: flex;
+}
+.card-flex {
+  display: flex;
+  flex-direction: row;
+}
+.card-body {
+  width: 600px;
+}
+.card-text {
+  width: fit-content;
+}
+.author-description {
+  display: flex;
+  justify-content: space-between;
+}
+.card-title {
+  font-weight: 800;
+}
+.thumbnil {
+  display: flex;
+  gap: 20px;
+}
+.div {
+  float: left;
+  width: 44%;
+}
+.div-div {
+  float: right;
+  width: 44%;
+}
+@media only screen and (max-width: 425px) {
+  .h4-page {
+    padding: 0;
+  }
+  .form-main {
+    padding: 40px;
+  }
+  .main {
+    height: fit-content;
+    margin: 20px;
+  }
+  .link-signup {
+    margin-left: 0px;
+  }
+  .information,
+  .main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px;
+  }
+  .div-information-left,
+  .div-information-right {
+    width: 100%;
+    overflow: hidden;
+  }
+  .description {
+    height: 200px;
+  }
+  .span-item {
+    display: block;
+  }
+  hr {
+    overflow: hidden;
+  }
+  .main-div-info {
+    margin: 0;
+  }
+}
